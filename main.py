@@ -41,4 +41,4 @@ if __name__ == "__main__":
                       bg="#FF1493", fg="#FFFFFF", activebackground="#DC143C", activeforeground="#FFFFFF")
     ButtonTL.place(x=300, y=300, anchor="c")
     window.run()
-    os.remove("grid_img.png")
+    os.remove("~grid_img.png")

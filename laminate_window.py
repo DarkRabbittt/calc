@@ -40,7 +40,7 @@ class LaminateWindow:
             self.no_img = insert.no_image()
             self.no_image = Label(self.root, image=self.no_img)
             self.no_image.place(x=415, y=14)
-            os.remove("grid_img.png")
+            os.remove("~grid_img.png")
         except AttributeError:
             messagebox.showinfo('Внимание!', 'Вы не выбрали изображение')
 
